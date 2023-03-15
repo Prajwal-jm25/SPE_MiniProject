@@ -1,0 +1,9 @@
+---
+- name: Deploy Docker Container
+  hosts: ubuntu22
+  remote_user: root
+  tasks:
+    - name: Pull Docker Image from Docker Hub
+      docker_image:
+        name: prajwaljm25/scientificcalci
+        source: pull
