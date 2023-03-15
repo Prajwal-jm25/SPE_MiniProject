@@ -2,8 +2,12 @@ package calci;
 
 import java.lang.Math;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class ScientificCalculator {
+
+    private static final Logger logger = LogManager.getLogger(ScientificCalculator.class);
     public static double sqrt(double num){
         return Math.sqrt(num);
     }
@@ -27,6 +31,11 @@ public class ScientificCalculator {
 
     public static void main(String[] args) {
 
+        logger.debug("hello from log4j2");
+        logger.debug("Hi");
+        logger.debug("Running Calculator");
+        logger.debug("Choose");
+        logger.debug("Bye");
         Scanner scanner = new Scanner(System.in);
         int c = 0;
 
