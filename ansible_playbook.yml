@@ -1,7 +1,6 @@
 ---
 - name: Deploy Docker Container
-  hosts: ubuntu22
-  remote_user: root
+  hosts: all
   tasks:
     - name: Pull Docker Image from Docker Hub
       docker_image:
