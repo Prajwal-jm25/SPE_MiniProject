@@ -1,8 +1,12 @@
 ---
-- name: Deploy Docker Container
+- name: Pull Docker Image
   hosts: all
   tasks:
-    - name: Pull Docker Image from Docker Hub
+    - name: Pull Calculator DevOps Image
       docker_image:
         name: prajwaljm25/scientificcalci
         source: pull
+
+
+
+

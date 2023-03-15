@@ -1,1 +1,1 @@
-172.16.142.107 ansible_user=user1 ansible_sudo_pass=userone
+172.16.142.107 ansible_user= user1 ansible_sudo_pass= userone
