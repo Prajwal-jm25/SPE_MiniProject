@@ -3,6 +3,6 @@ LABEL author = "Prajwal J M"
 LABEL version = 1.0
 LABEL description = "Scientific Calculator is implemented"
 
-COPY ./target/scientificCalculator-1.0-SNAPSHOT.jar ./
+COPY ./target/scientificCalculator-1.0-SNAPSHOT-jar-with-dependencies.jar ./
 WORKDIR ./
 CMD ["java", "-cp", "scientificCalculator-1.0-SNAPSHOT.jar", "calci.ScientificCalculator"]
