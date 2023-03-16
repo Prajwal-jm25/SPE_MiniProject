@@ -5,4 +5,4 @@ LABEL description = "Scientific Calculator is implemented"
 
 COPY ./target/scientificCalculator-1.0-SNAPSHOT-jar-with-dependencies.jar ./
 WORKDIR ./
-CMD ["java", "-cp", "scientificCalculator-1.0-SNAPSHOT.jar", "calci.ScientificCalculator"]
+CMD ["java", "-cp", "scientificCalculator-1.0-SNAPSHOT-jar-with-dependencies.jar", "calci.ScientificCalculator"]
