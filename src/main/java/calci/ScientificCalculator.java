@@ -36,7 +36,7 @@ public class ScientificCalculator {
         int c = 0;
 
         while(c != 5){
-            //logger.debug("User Input");
+            logger.debug("User Input");
             System.out.println("\nWelcome to ScientificCalculator\nPlease Select the operation which you want to perform\n");
             System.out.println("1) Square Root");
             System.out.println("2) Factorial");
