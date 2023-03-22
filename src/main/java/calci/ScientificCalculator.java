@@ -47,7 +47,7 @@ public class ScientificCalculator {
             
             switch(c){
                 case 1:
-                    logger.debug("Input for Square Root Choice");
+                    logger.debug("Input for Square Root Choice ");
                     System.out.println("Enter the Number");
                     double root = scanner.nextDouble();
                     logger.debug("Executing square root function");
